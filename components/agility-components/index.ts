@@ -32,5 +32,6 @@ export const getModule = (moduleName: string): ModuleWithInit | null => {
 		(m) => m.name.toLowerCase() === moduleName.toLowerCase()
 	);
 	if (!obj) return NoComponentFound;
+	// @ts-ignore
 	return obj.module as ModuleWithInit;
 };

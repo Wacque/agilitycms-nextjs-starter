@@ -40,6 +40,7 @@ const TextBlockWithImage = ({fields}: {fields: ITextBlockWithImage}) => {
 			// else use anchor tag
 			return (
 				<a
+					rel="noreferrer"
 					href={url}
 					title={text}
 					target={"_blank"}
@@ -90,11 +91,11 @@ const TextBlockWithImage = ({fields}: {fields: ITextBlockWithImage}) => {
 					}`}
 				>
 					<div className="g:py-8 text-center md:text-left">
-						{/*{fields.tagline && (*/}
-						{/*	<span className="font-bold text-primary-500 text-sm text-center md:text-left uppercase">*/}
-						{/*		{fields.tagline}*/}
-						{/*	</span>*/}
-						{/*)}*/}
+						{fields.tagline && (
+							<span className="font-bold text-primary-500 text-sm text-center md:text-left uppercase">
+								{fields.tagline}
+							</span>
+						)}
 						<h2 className="font-display text-4xl font-black text-secondary-500 md:text-3xl lg:text-5xl tracking-wide text-center mt-4 lg:leading-tight md:text-left">
 							{fields.title}
 						</h2>
