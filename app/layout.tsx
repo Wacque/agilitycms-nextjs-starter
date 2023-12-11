@@ -18,11 +18,11 @@ const inter = Inter({
 	variable: "--font-inter",
 })
 
-export default async function RootLayout({children}: {children: React.ReactNode}) {
+export default async function RootLayout() {
 	// const {locale, sitemap, isDevelopmentMode, isPreview} = useAgilityContext()
 
 	// const header = await getHeaderContent({sitemap, locale})
-
+	const googlePlayLink = "https://play.google.com/store/apps/details?id=ai.mail.inbox.gmail.outlook.manager"
 	const isPreviewRequested = false
 
 	return (
@@ -52,7 +52,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 										imagePosition: "right",
 										image: "https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&w=600",
 										primaryButton: {
-											href: "https://www.google.com",
+											href: googlePlayLink,
 											text: "Find on Google play",
 										},
 										highPriority: ""
@@ -64,7 +64,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 										imagePosition: "left",
 										image: "https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&w=600",
 										primaryButton: {
-											href: "https://www.google.com",
+											href: googlePlayLink,
 											text: "Find on Google play",
 										},
 										highPriority: ""
