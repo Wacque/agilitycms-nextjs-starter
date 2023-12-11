@@ -1,14 +1,14 @@
 import React from "react"
 import {AgilityPic, ImageField, Module, URLField} from "@agility/nextjs"
 import Link from "next/link"
-import Image from "next/image"
+import Image, {StaticImageData} from "next/image"
 
 interface ITextBlockWithImage {
 	title: string
 	content: string
 	tagline?: string
 	imagePosition: "left" | "right"
-	image: string
+	image: string | StaticImageData
 	primaryButton: {
 		text: string,
 		href: string

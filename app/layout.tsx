@@ -12,6 +12,8 @@ import {getHeaderContent} from "lib/cms-content/getHeaderContent"
 import TextBlockWithImage from "../components/agility-components/TextBlockWithImage";
 import {ImageField, URLField} from "@agility/nextjs";
 
+import Image from "next/image";
+
 // import Logo from "assets/logo.png"
 const inter = Inter({
 	subsets: ["latin"],
@@ -43,14 +45,14 @@ export default async function RootLayout() {
 										filesize: 1,
 										target: "_blank"
 									}
-								} siteName={"Ai Email"}/>
+								} siteName={"AI Email: All-In-One Mail Tool"}/>
 								<main className={`flex-grow`}>
 									<TextBlockWithImage fields={{
 										title: "Transform your email workflow with AI Email",
 										content:  "AI Email: All-In-One Mail is the ultimate email tool for all your personal and professional communication needs! Powered by state-of-the-art AI technology, it enables you to manage emails more effectively, quickly and efficiently than ever before. AI Email allows you to manage multiple email accounts, streamline your inbox, automate responses, and customize your messages with templates and signatures with ease. Try it out today and AI Email: All-In-One Mail Tool has everything you need to stay organized and efficient.",
 										tagline:  "Your personal AI email assistant",
 										imagePosition: "right",
-										image: "https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&w=600",
+										image: "/assets/3.png",
 										primaryButton: {
 											href: googlePlayLink,
 											text: "Find on Google play",
@@ -62,7 +64,7 @@ export default async function RootLayout() {
 										content:  "AI Email: All-In-One Mail Tool allows you to manage multiple email accounts all in one place. You can easily switch between accounts to access all your emails, attachments, and contacts, without ever leaving the platform.",
 										tagline:  "Unified Email Management",
 										imagePosition: "left",
-										image: "https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&w=600",
+										image: "/assets/4.png",
 										primaryButton: {
 											href: googlePlayLink,
 											text: "Find on Google play",
@@ -74,7 +76,7 @@ export default async function RootLayout() {
 										content:  "Our AI-powered inbox helps filter out the noise and prioritize your most important emails. The tool automatically labels your emails and sorts them into categories to help save you time and keep your inbox clutter-free.",
 										tagline:  "Smart Inbox",
 										imagePosition: "right",
-										image: "https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&w=600",
+										image: "/assets/1.png",
 										primaryButton: {
 											href: googlePlayLink,
 											text: "Find on Google play",
@@ -86,7 +88,7 @@ export default async function RootLayout() {
 										content:  "Our advanced AI technology empowers you to streamline your communication with advanced features. From scheduling emails, intelligent sorting and filtering, to automatically categorize email, automate email writing or replies, etc. AI Email helps you maximize your efficiency and stay organized all the time.",
 										tagline:  "AI-powered efficiency ",
 										imagePosition: "left",
-										image: "https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&w=600",
+										image: "/assets/2.png",
 										primaryButton: {
 											href: googlePlayLink,
 											text: "Find on Google play",
