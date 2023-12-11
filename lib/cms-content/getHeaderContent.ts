@@ -57,6 +57,8 @@ export const getHeaderContent = cache(async ({ locale, sitemap }: Props) => {
 			take: 1,
 		})
 
+		console.log("header", header)
+
 		// if we have a header, set as content item
 		if (header && header.items && header.items.length > 0) {
 			contentItem = header.items[0]

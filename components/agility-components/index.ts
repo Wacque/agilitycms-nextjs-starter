@@ -12,11 +12,11 @@ import { ModuleWithInit } from "@agility/nextjs";
 
 const allModules = [
 	{ name: "TextBlockWithImage", module: TextBlockWithImage },
-	{ name: "Heading", module: Heading },
-	{ name: "FeaturedPost", module: FeaturedPost },
-	{ name: "PostsListing", module: PostsListing },
-	{ name: "PostDetails", module: PostDetails },
-	{ name: "RichTextArea", module: RichTextArea },
+	// { name: "Heading", module: Heading },
+	// { name: "FeaturedPost", module: FeaturedPost },
+	// { name: "PostsListing", module: PostsListing },
+	// { name: "PostDetails", module: PostDetails },
+	// { name: "RichTextArea", module: RichTextArea },
 ];
 
 /**
