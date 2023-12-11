@@ -51,7 +51,7 @@ const SiteFooter = () => {
                               href="https://developers.google.com/terms/api-services-user-data-policy">Google API
                         Services User Data Policy</a>, including the limited use requirements.You can also get more
                         details from our <a className={"text-gray-600 mr-2 border-b border-gray-600"} rel="noreferrer" target="_blank"
-                                            href="https://www.aiemail.aihubclub.online/privacypolicy.html">Privacy
+                                            href="https://aiemail.aihubclub.online/privacypolicy.html">Privacy
                         Policy</a>.
                     </p>
                 </div>
