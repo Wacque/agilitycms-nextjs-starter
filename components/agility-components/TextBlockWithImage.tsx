@@ -8,7 +8,7 @@ interface ITextBlockWithImage {
 	content: string
 	tagline?: string
 	imagePosition: "left" | "right"
-	image: string | StaticImageData
+	image: string
 	primaryButton: {
 		text: string,
 		href: string
