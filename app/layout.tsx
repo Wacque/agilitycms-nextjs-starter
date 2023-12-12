@@ -55,7 +55,7 @@ export default async function RootLayout() {
 										image: "/assets/3.png",
 										primaryButton: {
 											href: googlePlayLink,
-											text: "Find on Google play",
+											text: "Find on Google Play",
 										},
 										highPriority: ""
 									}} />
@@ -67,7 +67,7 @@ export default async function RootLayout() {
 										image: "/assets/4.png",
 										primaryButton: {
 											href: googlePlayLink,
-											text: "Find on Google play",
+											text: "Find on Google Play",
 										},
 										highPriority: ""
 									}} />
@@ -79,7 +79,7 @@ export default async function RootLayout() {
 										image: "/assets/1.png",
 										primaryButton: {
 											href: googlePlayLink,
-											text: "Find on Google play",
+											text: "Find on Google Play",
 										},
 										highPriority: ""
 									}} />
@@ -91,7 +91,7 @@ export default async function RootLayout() {
 										image: "/assets/2.png",
 										primaryButton: {
 											href: googlePlayLink,
-											text: "Find on Google play",
+											text: "Find on Google Play",
 										},
 										highPriority: ""
 									}} />
